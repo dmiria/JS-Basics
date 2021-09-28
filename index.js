@@ -5,5 +5,15 @@ let age = 27;
 console.log("Hello, my name is " + firstName);
 
 let person = {
-    name = 'Betty'
+    name:"Betty",
+    favoriteFood:"cake",
 };
+console.log(person.name);
+
+person.name = "Crocker";
+console.log(person.name);
+
+person["name"] = "Pumpkin";
+console.log(person.name);
+
+
