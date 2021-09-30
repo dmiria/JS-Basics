@@ -17,3 +17,4 @@ person["name"] = "Pumpkin";
 console.log(person.name);
 
 
+var newArray  = ["one", "two", "three"]
