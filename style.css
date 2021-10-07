@@ -6,16 +6,27 @@ p{
     padding: 10px 10px 10px 10px;
 }
 
-#anim{
-    animation-name: slidingTitle;
-    animation-duration: 500ms;
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: slidingBox;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
 }
 
-@keyframes  {
+@keyframes slidingBox {
     0%{
-        left: 100px;
+        left: 0px;
+    }
+    20%{
+        left: 1000px;
+    }
+    40%{
+        left: 2000px;
     }
     100%{
-        left: 200px;
+        left: 3000px;
     }
 }
