@@ -5,3 +5,17 @@ div{
 p{
     padding: 10px 10px 10px 10px;
 }
+
+#anim{
+    animation-name: slidingTitle;
+    animation-duration: 500ms;
+}
+
+@keyframes  {
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 200px;
+    }
+}
