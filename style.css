@@ -1,10 +1,13 @@
+/* Div with black border */
 div{
     border: 1px solid black;
 }
 
+/*paragraph with padding*/
 p{
     padding: 10px 10px 10px 10px;
 }
+
 
 .box{
     height: 100px;
